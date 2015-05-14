@@ -2,6 +2,8 @@ MyAssignents
 ============
 (Note this document is in Markdown format)
 
+FAO Moodle Moot UK 15 Dashboard people, the types/ directory contains the individual module interrogators that implement the logic to construct an SQL query, which is then used to get a single SQL result, which is then used to display the coursework information.
+
 Purpose
 -------
 The purpose of the **MyCoursework** block is two fold. The first part is to provide students with a view of their assignments across all of their classes. The second (and yet to be implemented) aspect is to allow Counsellors to have a view across each of their student's assignments.
