@@ -1,0 +1,41 @@
+MyAssignents
+============
+(Note this document is in Markdown format)
+
+Purpose
+-------
+The purpose of the **MyCoursework** block is two fold. The first part is to provide students with a view of their assignments across all of their classes. The second (and yet to be implemented) aspect is to allow Counsellors to have a view across each of their student's assignments.
+
+There are 2 main interfaces for the **MyCoursework** block. 
+
+**MyCoursework** Block
+-------------------
+
+The first is the **MyCoursework** block itself, which can be added to a user's Myplace Homepage. This should be a default item (depending on the server's configuration), but the user may choose to remove it.
+
+The block displays a list of assignments (or any Moodle mod that has a "timedue" or "timeclose" attribute) that have either:
+1. Passed with no submission having been made - "Over due"
+2. Have a closing/submission date that is within a specified number of days (from the current date/time). This period of time is a server setting that can be changed by Server Adminstrators, and by default is 14 days.
+
+From the block, users can go directly to the assignment/activity's page to either submit or complete the activity.
+
+**MyCoursework** Page
+------------------
+
+The block also provides a link to a **MyCoursework** page that lists *all* of the activities that are still "open" to the student. This includes assignments and some supported activities (e.g. quizzes). 
+
+From this page the user can:
+* Go directly to the submission page or the main activity page to complete the assignment/activity.
+* See if any of their assignments have been graded, what grade they have been given and access the feedback (if supported by the assignment/activity mod) provided.
+
+Grading information is only displayed if the corresponding Gradebook item for the assignment/activity has been made visible.
+
+Indicator System
+----------------
+
+Both the block and the **MyCoursework** page use a coloured ball system to indicate the "dueness" of a particular activity or assignment. This system is consistent with the indicators used by the Library features in the Mobile Applications to indicate the relative due-ness/overdue-ness of library books.
+
+Each assignment/activity displays one of 3 image states:
+1. Red Ball with ! - Indicating that the activity's due date has passed and there has been no submission made.
+2. Orange Ball - Indicating that the activity becomes due within the specified window (normally 14 days of the current date/time).
+3. Green Ball - Indicating that the activity is not due within the specified window.

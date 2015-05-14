@@ -1,0 +1,36 @@
+.block_mycoursework_header {
+    padding-bottom:0px;
+    margin-bottom:0px;
+}
+.block_mycoursework_header_image {
+    float:left;padding:3px;padding-top:1px;height:16px;
+}
+
+#block_mycoursework_all_assignments_table {
+    width:100%;
+
+}
+td #block_mycoursework_all_assignments_table {
+
+}
+.r1 td {
+    background-color:#dddddd;
+}
+.invisiblefieldset {
+    display:inline;    
+}
+.tabledivider {
+    border-bottom:1px solid #dddddd;    
+}
+
+.block_mycoursework_user_info {
+    height:178px;
+}
+#block_mycoursework_legend_staff {
+    width:45%;
+    float:left;
+}
+#block_mycoursework_user_stats {
+    width:45%;
+    float:left;
+}
